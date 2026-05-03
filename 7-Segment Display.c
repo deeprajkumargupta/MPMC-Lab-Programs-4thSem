@@ -19,7 +19,7 @@ int main(void)
         if(switchCount==0x10)
         {
             switchCount=0;
-            IO0CLR=F0FF0000;
+            IO0CLR=0xF0FF0000;
         }
     }
 }
