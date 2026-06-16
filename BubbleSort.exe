@@ -22,3 +22,15 @@
 		mov ah,4ch
 		int 21h
 end start
+
+
+
+D:
+edit p4.asm
+masm p4.asm;
+link p4.onj;
+cv p4.exe
+Run-> Start =>[Program terminated]
+e ds:0012 =>[_ _ _ _]
+Press Space bar
+00 02 04 06 08 0A
