@@ -3,7 +3,7 @@
 .data
     n dw 4
     r dw 2
-    ncr dw ?
+    ncr dw 0
     msg db "ncr= $"
 .code
     mov ax, @data
